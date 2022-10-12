@@ -1,2 +1,2 @@
 # DAGAD
-Source Code for Paper "DAGAD: Data Augmentation for Graph Anomaly Detection " ICDM 2022
+The source code for the paper "DAGAD: Data Augmentation for Graph Anomaly Detection" accepted by ICDM 2022 will be released soon!
