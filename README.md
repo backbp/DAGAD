@@ -27,7 +27,7 @@
     
         @inproceedings{liu2022DAGAD, 
     	    author = {Fanzhen Liu and Xiaoxiao Ma and Jia Wu and Jian Yang and Shan Xue and Amin Behesht and Chuan Zhou and
-                      Hao Peng and Quan Z. Sheng and Charu Aggarwal},
+                      Hao Peng and Quan Z. Sheng and Charu C. Aggarwal},
     	    booktitle = {ICDM},
     	    title = {DAGAD: Data Augmentation for Graph Anomaly Detection},
     	    year = {2022},
