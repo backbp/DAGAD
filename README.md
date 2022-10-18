@@ -15,7 +15,7 @@
 -    ('--beta', type=float, default=0.5)
 -    ('--gat_heads', default=8, help='GAT heads')
 
-## Example (run test on BlogCatalog dataset):
+## Example on BlogCatalog dataset:
 - testing DAGAD_GCN: python main.py --dataset BlogCatalog --gnn_layer GCN 
 - testing DAGAD_GAT: python main.py --dataset BlogCatalog --gnn_layer GAT 
 
