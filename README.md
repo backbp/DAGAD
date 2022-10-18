@@ -1,4 +1,4 @@
-# ReadMe
+# DAGAD: Data Augmentation for Graph Anomaly Detection
 
 ## Parameters to run our model and their default values:
 -   ('--seed', type=int, default=7, help='Random seed.')
