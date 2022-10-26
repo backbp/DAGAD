@@ -9,7 +9,7 @@ DAGAD: Data Augmentation for Graph Anomaly Detection, ICDM 2022 [[arXiv](https:/
 - DAGAD employs a data augmentation module to derive additional training samples in the embedding space, which is also extendable to other graph learning tasks that rely on learning features from a very limited number of labeled instances.
 - Augmented samples together with original ones are leveraged by two classifiers in a complementary manner, to learn discriminative
 representations for the anomalous and normal classes.
-- DAGAD develops class-wise losses to alleviate the suffering from class imbalance, which is can be easily integrated into semi-supervised anomaly detectors.
+- DAGAD develops class-wise losses to alleviate the suffering from class imbalance, which can be easily integrated into semi-supervised anomaly detectors.
 
 If you find this work helpful for your research, please cite this paper:
 
