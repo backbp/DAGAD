@@ -2,7 +2,7 @@
 
 This repository is the official PyTorch implementation of DAGAD in the following paper:
 
-DAGAD: Data Augmentation for Graph Anomaly Detection, ICDM 2022 [[arXiv](https://arxiv.org/pdf/2210.09766.pdf)]
+DAGAD: Data Augmentation for Graph Anomaly Detection, accepted as a regular paper by [*the 22nd IEEE International Conference on Data Mining*](https://icdm22.cse.usf.edu/) (ICDM 2022) [[arXiv](https://arxiv.org/pdf/2210.09766.pdf)]
 
 **Brief Intro.** DAGAD alleviates `anomalous sample scarcity` and `class imbalance` issues of anomalous node detection with THREE strengths:
 
