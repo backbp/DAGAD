@@ -10,11 +10,11 @@ from DAGAD import AUG_AD_swap, AUG_AD_swap_GAT, train, test
 def arg_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('--seed', type=int, default=7, help='Random seed.')
-    parser.add_argument('--dataset', type=str, default='BlogCatalog', help="['BlogCatalog', 'ACM', 'Flickr')")
+    parser.add_argument('--dataset', type=str, default='BlogCatalog', help="['BlogCatalog', 'ACM', 'Flickr'].")
     parser.add_argument('--gnn_layer', type=str, default='GCN', help="['GCN','GAT']")
-    parser.add_argument('--epoch_num', type=int, default=200, help='Number of epochs to train.')
-    parser.add_argument('--learning_rate', default=0.005, help='Learning rate of the optimiser.')
-    parser.add_argument('--weight_decay', default=5e-4, help='Weight decay of the optimiser.')
+    parser.add_argument('--epoch_num', type=int, default=200, help='The number of epochs for training.')
+    parser.add_argument('--learning_rate', default=0.005, help='Learning rate of the optimizer.')
+    parser.add_argument('--weight_decay', default=5e-4, help='Weight decay of the optimizer.')
     
     # Model hyperparameters
     parser.add_argument('--gnn_dim', type=int, default=64)
