@@ -29,11 +29,11 @@ If you find this work helpful for your research, please cite this paper:
 
 ## Parameter Setting:
 -   ('--seed', type=int, default=7, help='Random seed.')
--    ('--dataset', type=str, default='BlogCatalog', help="['BlogCatalog', 'ACM', 'Flickr')")
+-    ('--dataset', type=str, default='BlogCatalog', help="['BlogCatalog', 'ACM', 'Flickr'].")
 -    ('--gnn_layer', type=str, default='GCN', help="['GCN','GAT']")
--    ('--epoch_num', type=int, default=200, help='Number of epochs to train.')
--    ('--learning_rate', default=0.005, help='Learning rate of the optimiser.')
--    ('--weight_decay', default=5e-4, help='Weight decay of the optimiser.')
+-    ('--epoch_num', type=int, default=200, help='The number of epochs for training.')
+-    ('--learning_rate', default=0.005, help='Learning rate of the optimizer.')
+-    ('--weight_decay', default=5e-4, help='Weight decay of the optimizer.')
     
 -    ('--gnn_dim', type=int, default=64)
 -    ('--fcn_dim', type=int, default=32)
@@ -43,8 +43,13 @@ If you find this work helpful for your research, please cite this paper:
 -    ('--gat_heads', default=8, help='GAT heads')
 
 ## How to Use
-Example on BlogCatalog dataset
-- testing DAGAD_GCN: `python main.py --dataset BlogCatalog --gnn_layer GCN`
-- testing DAGAD_GAT: `python main.py --dataset BlogCatalog --gnn_layer GAT` 
+- Run DAGAD-GCN on BlogCatalog: 
+```
+python main.py --dataset BlogCatalog --gnn_layer GCN
+```
+- Run DAGAD-GAT on BlogCatalog: 
+```
+python main.py --dataset BlogCatalog --gnn_layer GAT
+```
 
 
